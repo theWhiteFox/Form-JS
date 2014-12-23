@@ -7,6 +7,15 @@
             alert('Please fill in all required fields');
             return false;
          }
-      };
+      }
+
+      var email = document.getElementById('email').value,
+              atPos = email.indexOf('@'),
+               dotPos = email.lastIndexOf('.');
+
+      if (atPos < 1 || dotPos + 2 || dotPos + 2 >= x.length) {
+         alert('Please enter valid email address');
+         return false;
+      }
    };
 }());
