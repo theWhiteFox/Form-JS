@@ -1,0 +1,40 @@
+/* 
+    Created on : 23-Dec-2014, 14:16:24
+    Author     : Stephen
+*/
+#content {
+   width:500px;
+   margin: auto;
+   font-family: Source code pro;
+   text-align: center;
+   background-color: goldenrod;
+}
+
+li.fields {
+	margin: 0;
+	padding: 1em 0;
+}
+
+li.title {
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 2em;
+	background-color: silver;
+	border-top: 1px solid gold;
+	border-bottom: gold;
+}
+
+.hide {
+	display: none;
+}
+
+h1 {
+   padding: 20px 0;
+   font-size: 2.2em;
+   font-weight: bold;
+}
+
+p {
+   padding:10px 0;
+}
